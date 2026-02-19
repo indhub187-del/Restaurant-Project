@@ -266,12 +266,14 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  height: 180px;
-  background:
+  background-color: #1a1a1b;
+  background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/banner.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* Scroll is usually safer than fixed on mobile */
   display: flex;
   flex-direction: column;
   justify-content: center;
