@@ -1,0 +1,8 @@
+# Git ignore for IndhuEats
+.DS_Store
+*.log
+.gemini/
+brain/
+node_modules/
+dist/
+.env
