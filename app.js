@@ -1,10 +1,10 @@
 // Enhanced Cart & Restaurant Management System
 class RestaurantApp {
   constructor() {
-    this.cart = JSON.parse(localStorage.getItem("indhuCart")) || [];
+    this.cart = JSON.parse(localStorage.getItem("quickCart")) || [];
     this.originalCards = Array.from(document.querySelectorAll(".res-card"));
     this.currentCoupon = null;
-    this.theme = localStorage.getItem("indhuTheme") || "light";
+    this.theme = localStorage.getItem("quickTheme") || "light";
     this.init();
   }
 
@@ -253,7 +253,7 @@ class RestaurantApp {
   }
 
   saveCart() {
-    localStorage.setItem("indhuCart", JSON.stringify(this.cart));
+    localStorage.setItem("quickCart", JSON.stringify(this.cart));
   }
 
   getSubtotal() {
@@ -487,7 +487,7 @@ class RestaurantApp {
 
   toggleTheme() {
     this.theme = this.theme === "light" ? "dark" : "light";
-    localStorage.setItem("indhuTheme", this.theme);
+    localStorage.setItem("quickTheme", this.theme);
     this.applyTheme();
   }
 
