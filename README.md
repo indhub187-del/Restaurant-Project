@@ -242,6 +242,6 @@ The hero section references `images/banner.png`. You can:
 
 ---
 
-**Made with ❤️ by Elligari Praveena**
+**Made with ❤️ by Bereela Indhu**
 
 Enjoy your GourmetDash experience! 🍽️
